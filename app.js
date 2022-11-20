@@ -20,12 +20,12 @@ closeicon.addEventListener("click", () => {
     isupdate = false
     titletag.value = ''
     desctag.value =  ''
-    addbtn.innerText = "add note"
-    popuptitle.innerText = "add a new note"
+    addbtn.innerText = "Add Note"
+    popuptitle.innerText = "Add a new Note"
     popupbox.classList.remove("show")
 })
 function shownotes(){
-    document.querySelectorAll(".notes").forEach(note => note.remove())
+    document.querySelectorAll(".note").forEach(note => note.remove())
     notes.forEach((note, index) => {
         let litag = `
         <li class="note">

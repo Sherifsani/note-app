@@ -194,7 +194,7 @@ button{
     background-color: #6a93f8;
     font-size: 17px;
     border-radius: 5px;
-
+    cursor: pointer;
 }
 .popup-box, .popup{
     opacity: 0;
